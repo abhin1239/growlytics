@@ -1,0 +1,21 @@
+DESCRIBE users;
+DESCRIBE children;
+DESCRIBE growth_records;
+DESCRIBE blood_reports;
+DESCRIBE vax_schedule;
+DESCRIBE vaccinations;
+DESCRIBE nutrition_plans;
+DESCRIBE alerts;
+DESCRIBE reference_ranges;
+DESCRIBE tokens;
+
+SELECT * FROM users;
+SELECT * FROM children;
+SELECT * FROM growth_records;
+SELECT * FROM blood_reports;
+SELECT * FROM vax_schedule;
+SELECT * FROM vaccinations;
+SELECT * FROM nutrition_plans;
+SELECT * FROM alerts;
+SELECT * FROM reference_ranges;
+SELECT * FROM tokens;

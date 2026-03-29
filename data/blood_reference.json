@@ -1,0 +1,391 @@
+{
+    "reference_ranges": [
+        {
+            "parameter": "hemoglobin",
+            "unit": "g/dL",
+            "ranges": [
+                {
+                    "age_group": "0-6 months",
+                    "gender": "all",
+                    "low_critical": 9.0,
+                    "low_normal": 10.0,
+                    "high_normal": 14.0,
+                    "high_critical": 18.0
+                },
+                {
+                    "age_group": "6-12 months",
+                    "gender": "all",
+                    "low_critical": 9.5,
+                    "low_normal": 10.5,
+                    "high_normal": 13.0,
+                    "high_critical": 15.0
+                },
+                {
+                    "age_group": "1-5 years",
+                    "gender": "all",
+                    "low_critical": 10.0,
+                    "low_normal": 11.0,
+                    "high_normal": 13.0,
+                    "high_critical": 15.0
+                },
+                {
+                    "age_group": "5-12 years",
+                    "gender": "all",
+                    "low_critical": 10.5,
+                    "low_normal": 11.5,
+                    "high_normal": 14.5,
+                    "high_critical": 16.0
+                },
+                {
+                    "age_group": "12-18 years",
+                    "gender": "Male",
+                    "low_critical": 11.0,
+                    "low_normal": 13.0,
+                    "high_normal": 16.0,
+                    "high_critical": 18.0
+                },
+                {
+                    "age_group": "12-18 years",
+                    "gender": "Female",
+                    "low_critical": 10.5,
+                    "low_normal": 12.0,
+                    "high_normal": 15.0,
+                    "high_critical": 16.5
+                }
+            ],
+            "deficiency_info": {
+                "name": "Anemia",
+                "symptoms": [
+                    "Tiredness",
+                    "Pale skin",
+                    "Reduced appetite",
+                    "Irritability",
+                    "Poor concentration"
+                ],
+                "foods_to_include": [
+                    "Ragi",
+                    "Drumstick leaves",
+                    "Dates",
+                    "Jaggery",
+                    "Spinach",
+                    "Beetroot",
+                    "Pomegranate"
+                ]
+            }
+        },
+        {
+            "parameter": "serum_iron",
+            "unit": "µg/dL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 30.0,
+                    "low_normal": 60.0,
+                    "high_normal": 170.0,
+                    "high_critical": 200.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Iron Deficiency",
+                "symptoms": [
+                    "Weakness",
+                    "Fatigue",
+                    "Brittle nails",
+                    "Cold hands and feet"
+                ],
+                "foods_to_include": [
+                    "Drumstick leaves",
+                    "Jaggery",
+                    "Black gram",
+                    "Garden cress seeds",
+                    "Dates"
+                ]
+            }
+        },
+        {
+            "parameter": "ferritin",
+            "unit": "ng/mL",
+            "ranges": [
+                {
+                    "age_group": "0-5 years",
+                    "gender": "all",
+                    "low_critical": 6.0,
+                    "low_normal": 12.0,
+                    "high_normal": 140.0,
+                    "high_critical": 200.0
+                },
+                {
+                    "age_group": "5-18 years",
+                    "gender": "all",
+                    "low_critical": 7.0,
+                    "low_normal": 15.0,
+                    "high_normal": 150.0,
+                    "high_critical": 200.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Low Iron Stores",
+                "symptoms": [
+                    "Fatigue",
+                    "Dizziness",
+                    "Shortness of breath"
+                ],
+                "foods_to_include": [
+                    "Red meat",
+                    "Liver",
+                    "Legumes",
+                    "Dried fruits",
+                    "Green leafy vegetables"
+                ]
+            }
+        },
+        {
+            "parameter": "vitamin_d",
+            "unit": "ng/mL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 10.0,
+                    "low_normal": 20.0,
+                    "high_normal": 50.0,
+                    "high_critical": 100.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Vitamin D Deficiency",
+                "symptoms": [
+                    "Bone pain",
+                    "Muscle weakness",
+                    "Delayed growth",
+                    "Rickets risk"
+                ],
+                "foods_to_include": [
+                    "Egg yolk",
+                    "Fish (sardine, mackerel)",
+                    "Fortified milk",
+                    "Mushrooms"
+                ],
+                "additional_advice": "15 minutes of morning sun exposure (before 9 AM) is the best source of Vitamin D"
+            }
+        },
+        {
+            "parameter": "vitamin_b12",
+            "unit": "pg/mL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 150.0,
+                    "low_normal": 200.0,
+                    "high_normal": 900.0,
+                    "high_critical": 1200.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Vitamin B12 Deficiency",
+                "symptoms": [
+                    "Numbness",
+                    "Tingling",
+                    "Balance problems",
+                    "Poor memory",
+                    "Fatigue"
+                ],
+                "foods_to_include": [
+                    "Egg",
+                    "Fish",
+                    "Milk",
+                    "Curd",
+                    "Paneer"
+                ]
+            }
+        },
+        {
+            "parameter": "calcium",
+            "unit": "mg/dL",
+            "ranges": [
+                {
+                    "age_group": "0-1 years",
+                    "gender": "all",
+                    "low_critical": 7.5,
+                    "low_normal": 8.5,
+                    "high_normal": 11.0,
+                    "high_critical": 12.0
+                },
+                {
+                    "age_group": "1-18 years",
+                    "gender": "all",
+                    "low_critical": 8.0,
+                    "low_normal": 8.8,
+                    "high_normal": 10.8,
+                    "high_critical": 11.5
+                }
+            ],
+            "deficiency_info": {
+                "name": "Calcium Deficiency",
+                "symptoms": [
+                    "Weak bones",
+                    "Dental problems",
+                    "Muscle cramps",
+                    "Delayed growth"
+                ],
+                "foods_to_include": [
+                    "Milk",
+                    "Curd",
+                    "Sesame seeds",
+                    "Ragi",
+                    "Sardines",
+                    "Amaranth leaves"
+                ]
+            }
+        },
+        {
+            "parameter": "total_protein",
+            "unit": "g/dL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 5.0,
+                    "low_normal": 6.0,
+                    "high_normal": 8.0,
+                    "high_critical": 9.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Protein Deficiency",
+                "symptoms": [
+                    "Poor growth",
+                    "Muscle wasting",
+                    "Weak immunity",
+                    "Swelling in feet"
+                ],
+                "foods_to_include": [
+                    "Egg",
+                    "Fish",
+                    "Chicken",
+                    "Dal",
+                    "Groundnuts",
+                    "Soy"
+                ]
+            }
+        },
+        {
+            "parameter": "albumin",
+            "unit": "g/dL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 2.5,
+                    "low_normal": 3.5,
+                    "high_normal": 5.0,
+                    "high_critical": 5.5
+                }
+            ],
+            "deficiency_info": {
+                "name": "Low Albumin (Hypoalbuminemia)",
+                "symptoms": [
+                    "Swelling",
+                    "Fatigue",
+                    "Poor wound healing"
+                ],
+                "foods_to_include": [
+                    "Eggs",
+                    "Fish",
+                    "Lean meat",
+                    "Dairy products"
+                ]
+            }
+        },
+        {
+            "parameter": "folic_acid",
+            "unit": "ng/mL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 2.0,
+                    "low_normal": 3.0,
+                    "high_normal": 17.0,
+                    "high_critical": 20.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Folic Acid Deficiency",
+                "symptoms": [
+                    "Fatigue",
+                    "Mouth sores",
+                    "Tongue swelling",
+                    "Growth problems"
+                ],
+                "foods_to_include": [
+                    "Green leafy vegetables",
+                    "Citrus fruits",
+                    "Legumes",
+                    "Fortified cereals"
+                ]
+            }
+        },
+        {
+            "parameter": "zinc",
+            "unit": "µg/dL",
+            "ranges": [
+                {
+                    "age_group": "all",
+                    "gender": "all",
+                    "low_critical": 50.0,
+                    "low_normal": 70.0,
+                    "high_normal": 120.0,
+                    "high_critical": 150.0
+                }
+            ],
+            "deficiency_info": {
+                "name": "Zinc Deficiency",
+                "symptoms": [
+                    "Slow growth",
+                    "Poor appetite",
+                    "Delayed wound healing",
+                    "Frequent infections"
+                ],
+                "foods_to_include": [
+                    "Pumpkin seeds",
+                    "Legumes",
+                    "Nuts",
+                    "Dairy",
+                    "Eggs"
+                ]
+            }
+        }
+    ],
+    "analysis_rules": {
+        "status_mapping": {
+            "below_low_critical": {
+                "status": "DEFICIENT",
+                "severity": "critical",
+                "action": "Immediate medical attention recommended"
+            },
+            "below_low_normal": {
+                "status": "BORDERLINE",
+                "severity": "moderate",
+                "action": "Dietary changes recommended, follow-up in 3 months"
+            },
+            "normal": {
+                "status": "NORMAL",
+                "severity": "none",
+                "action": "Continue balanced diet"
+            },
+            "above_high_normal": {
+                "status": "ELEVATED",
+                "severity": "moderate",
+                "action": "Consult physician"
+            },
+            "above_high_critical": {
+                "status": "CRITICAL_HIGH",
+                "severity": "critical",
+                "action": "Immediate medical attention required"
+            }
+        }
+    }
+}
