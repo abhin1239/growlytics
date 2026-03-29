@@ -81,26 +81,21 @@ const API = {
 
     // ==================== Auth Endpoints ====================
     auth: {
-    async login(username, password) {
-        return API.post('/login', { username, password });
-    },
+     async login(username, password) {
+            return API.post('/auth/login', { username, password });
+        },
 
-    async register(userData) {
-        return API.post('/register', userData);
-    },
+        async register(userData) {
+            return API.post('/auth/register', userData);
+        },
 
-    async logout() {
-        return API.post('/logout', {});
-    },
+        async logout() {
+            return API.post('/auth/logout', {});
+        },
 
-    async getProfile() {
-        return API.get('/profile');
-    },
-
-    async deleteAccount() {
-        return API.delete('/profile');
-    }
-},
+        async deleteAccount() {
+            return API.delete('/auth/profile');
+        }
 
     // ==================== Children Endpoints ====================
     children: {
