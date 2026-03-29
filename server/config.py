@@ -13,9 +13,9 @@ SQLITE_DB_PATH = os.path.join(ROOT_DIR, 'data', 'database.sqlite')
 
 # MySQL Config
 MYSQL_CONFIG = {
-    'host': 'containers-xxx.railway.app',
-    'user': 'root',  
-    'password': 'aBJfYtHfmiWSlWmQZduRYzzpyprlnZnW',  
+    'host': 'turntable.proxy.rlwy.net',
+    'user': 'root',
+    'password': 'ypzhRQyXOfRIjqfsQvWUKwqTJNHHLDri',
     'database': 'railway',
-    'port': 3306
+    'port': 55265
 }
