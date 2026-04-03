@@ -23,12 +23,17 @@ ROOT_DIR = os.path.dirname(BASE_DIR)  # Parent directory with HTML/CSS/JS
 
 app = Flask(__name__, static_folder=ROOT_DIR)
 app.config['SECRET_KEY'] = secrets.token_hex(32)
-CORS(app, resources={r"/api/*": {"origins": "*"}})#frontend is connnected with backend directly . here frontend is served to call backend directly and it is gone to index.html
+CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)#frontend is connnected with backend directly . here frontend is served to call backend directly and it is gone to index.html
 
 # Database path (for loading JSONs)
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
 
-
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
 
 # ==================== Database Setup ====================
 
