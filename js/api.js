@@ -96,7 +96,7 @@ const API = {
         async deleteAccount() {
             return API.delete('/auth/profile');
         }
-
+    },
     // ==================== Children Endpoints ====================
     children: {
         async getAll() {
