@@ -79,7 +79,8 @@ def init_db():
         cnx = mysql.connector.connect(
             host=config.MYSQL_CONFIG['host'],
             user=config.MYSQL_CONFIG['user'],
-            password=config.MYSQL_CONFIG['password']
+            password=config.MYSQL_CONFIG['password'],
+            port=config.MYSQL_CONFIG['port']
         )
         cursor = cnx.cursor()
         
