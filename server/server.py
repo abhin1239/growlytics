@@ -10,7 +10,8 @@ from functools import wraps
 import time
 
 from flask import Flask, request, jsonify, g, send_from_directory
-from flask_cors import CORS(app, origins=["https://growlytics-six.vercel.app/"])
+from flask_cors import CORS
+CORS(app, origins=["https://growlytics-six.vercel.app/"])
 from werkzeug.security import generate_password_hash, check_password_hash
 import secrets
 
