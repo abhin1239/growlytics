@@ -2,7 +2,7 @@
  * Configuration Constants
  */
 const CONFIG = {
-    API_BASE_URL: 'https://growlytics-1.onrender.com',
+    API_BASE_URL: 'https://growlytics-1.onrender.com/api',
     APP_NAME: 'GROWLYTICS',
     VERSION: '1.0.0',
 
